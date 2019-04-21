@@ -10,5 +10,7 @@ Example file is stored in:
 
 > src/example.bat
 
+Make sure you have disabled **legacy console**.
+
 # Screenshot
 ![screenshot](https://i.imgur.com/DE0kMQ4.png)
