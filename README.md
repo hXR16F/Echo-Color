@@ -13,10 +13,6 @@ Examples:
     call echocl.bat "TEST #3" n 1
     call echocl.bat "TEST #3" n a
 
-Example file is stored in:
-
-> src/example.bat
-
 Make sure you have disabled **legacy console**.
 
 # Screenshot
