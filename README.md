@@ -16,12 +16,18 @@ Syntax examples:
     call echocl.bat "TEST #2" y 0 e
     call echocl.bat "TEST #3" n 1
     call echocl.bat "TEST #3" n a
-    
+
 # Example files
-Run by double-click:
+Run by double-clicking:
 > src/example1.bat
 
 > src/example2.bat
 
 # Note
 Make sure you have disabled **legacy console**.
+
+You can do this by adding this line to your code:
+
+    reg add "HKCU\Console" /V "ForceV2" /T "REG_DWORD" /D "0x00000001" /F >nul
+
+Or by changing it in **properties** of **cmd.exe**.
