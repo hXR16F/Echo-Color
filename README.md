@@ -23,4 +23,5 @@ Run by double-click:
 
 > src/example2.bat
 
+# Note
 Make sure you have disabled **legacy console**.
