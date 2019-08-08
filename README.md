@@ -8,14 +8,18 @@
 
 # Syntax
 
-    call echocl.bat "string" newline fgcolor bgcolor
+```batchfile
+call echocl.bat "string" newline fgcolor bgcolor
+```
 
 Syntax examples:
 
-    call echocl.bat "TEST #1" y c 4
-    call echocl.bat "TEST #2" y 0 e
-    call echocl.bat "TEST #3" n 1
-    call echocl.bat "TEST #3" n a
+```batchfile
+call echocl.bat "TEST #1" y c 4
+call echocl.bat "TEST #2" y 0 e
+call echocl.bat "TEST #3" n 1
+call echocl.bat "TEST #3" n a
+```
 
 # Example files
 Run by double-clicking:
@@ -28,6 +32,8 @@ Make sure you have disabled **legacy console**.
 
 You can do this by adding this line to your code:
 
-    reg add "HKCU\Console" /V "ForceV2" /T "REG_DWORD" /D "0x00000001" /F >nul
+```batchfile
+reg add "HKCU\Console" /V "ForceV2" /T "REG_DWORD" /D "0x00000001" /F >nul
+```
 
 Or by changing it in **properties** of **cmd.exe**.
