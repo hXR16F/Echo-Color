@@ -1,5 +1,5 @@
 <p align="center">
-	<b>Echo Color</b>
+	<b>Echo Color - <a href="https://www.youtube.com/watch?v=8UYfcC1y1eA">YouTube</a></b>
 	<br>
 	<i>Simple and easy to use color plugin for batch scripts.</i>
 	<br><br><br>
